@@ -25,13 +25,17 @@ body {
 /* close commented backslash hack */
 h1 {
 	display: inline;
-	margin: 20px;
+	margin: 0px 20px 40px 20px;
 	color: white;
 }
 
 img {
-	background: lightblue;
 	width: 300px;
+	display: block;
+}
+
+.content {
+	margin-top: 30px;
 }
 
 .media-left{
