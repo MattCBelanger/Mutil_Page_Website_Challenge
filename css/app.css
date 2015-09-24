@@ -1,9 +1,23 @@
 .media-body{
+	display: inline-block;
+	margin: 20px;
+	background: lightblue;
+	width: 100%;
+	text-align: left;
 
+}
 
+h2 {
+	margin: 40px;
+	background: lightblue;
+	text-align: center;
+	display: block;
+}
 
-
-
+img {
+	margin: auto;
+	background: lightblue;
+	display: inline-block;
 }
 
 .media-heading{
