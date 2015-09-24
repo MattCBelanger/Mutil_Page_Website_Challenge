@@ -1,7 +1,15 @@
 .main-part a div {
 	float:left;
 	width:35%;
-	height: 200px;
+	height: 400px;
 	margin: 10px;
-	background-color: yellow;
+	padding: 20px;
+	background-color: rgba(153,224,124,0.5);
+}
+.main-part pre{
+	padding: 0px;
+	font-size: 1.5em
+}
+.greeding{
+	text-align: center;
 }
