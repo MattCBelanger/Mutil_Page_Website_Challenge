@@ -38,7 +38,9 @@ img {
 	float:left;
 }
 
-
+.nav{
+  box-sizing:border-box;
+}
 
 
 .nav .sign{
@@ -110,12 +112,12 @@ img {
   font-family: cursive;
   color:rgb(180,241,229);
 }
-.content{
+.main{
   margin: 100px auto;
   width: 700px;
   padding:0;
 }
-.content .main-img{
+.main .main-img{
     width: 700px;
 }
 footer p{
