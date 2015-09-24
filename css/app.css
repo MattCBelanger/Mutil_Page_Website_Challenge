@@ -86,15 +86,12 @@ img {
 
 
 
-
-
-
-
+.nav .sign{
+  float: left;
 }
-.nav {
 
-}
 .nav ul {
+  float: left;
   list-style: none;
   text-align: center;
   padding: 10px;
@@ -113,12 +110,15 @@ img {
   color: #fff;
   display: block;
   transition: .3s background-color;
+  box-sizing: border-box;
+  border: 5px;
+  border-radius: 25px;
 }
  
 .nav a:hover {
-  background-color: #005f5f;
-  box-shadow: 
-
+  background-color: rgb(61,230,165);
+  color: black;
+  border: 5px inset red;
 }
  
 .nav a.active {
