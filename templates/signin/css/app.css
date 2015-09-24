@@ -7,11 +7,14 @@
 	padding: 20px;
 	background-color: rgba(153,224,124,0.5);
 	border:	5px outset rgb(153,224,124);
+	margin-left: 100px;
 }
 .main-part pre{
 	padding: 0px;
 	font-size: 1.5em
 }
 .greeding{
+	
+	float:right;
 	text-align: center;
 }
