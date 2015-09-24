@@ -66,6 +66,7 @@ img {
   height: 50px;
   width: 100px;
   border-bottom: 1px solid #888;
+  padding: 5px 10px;
 }
  
 .nav a {
@@ -92,7 +93,7 @@ img {
  
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 120px;
+    width: 130px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
