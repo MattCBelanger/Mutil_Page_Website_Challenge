@@ -1,10 +1,12 @@
-.main-part a div {
+
+.main-part .boxes .box {
 	float:left;
 	width:35%;
-	height: 400px;
+	height: 300px;
 	margin: 10px;
 	padding: 20px;
 	background-color: rgba(153,224,124,0.5);
+	border:	5px outset rgb(153,224,124);
 }
 .main-part pre{
 	padding: 0px;
