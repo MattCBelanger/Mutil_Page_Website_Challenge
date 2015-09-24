@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="news">
-		<a href="index.html">
+		<a href="../../index.html">
         	<div class="logoback"></div>
     	</a>
   		<header>
@@ -20,27 +20,39 @@
     			</div>
       			<ul>
         			<li class="departments">
-        				<a href="templates/enviro/index.html">Enviroment</a>
+        				<a href="../enviro/index.html">Enviroment</a>
         			</li>
         			<li class="departments">
-        				<a href="templates/finance/index.html">Finance</a>
+        				<a href="../finance/index.html">Finance</a>
         			</li>
         				<li class="departments">
-        				<a href="templates/foreign/index.html">Foreign</a>
+        				<a href="../foreign/index.html">Foreign</a>
         			</li>
       			</ul>
-      			<a class="signin" href="templates/signin/index.html">sign in or login</a>
     		</div>
-    		<h1>Welcome to Bafeey Solution!</h1>
+    		<h1>Welcome to Bafeey Solution Login Page!</h1>
   		</header>
 	</div>
 
 	<div class="main-part clearfix">
 		<a href="#">
-			<div class="signin">Sign Up</div>
+			<div class="signin">Sign Up
+          <form action="demo_form.asp">
+        Username: <input type="text" name="usrname"><br>
+      New Password: <input type="password" name="password"><br>
+      Confirm Password: <input type="password" name="password"><br>
+  <input type="submit" value="Submit">
+</form>
+      </div>
 		</a>
 		<a href="#">
-			<div class="login">Log in</div>
+			<div class="login">Log in
+        <form action="demo_form.asp">
+  Username: <input type="text" name="usrname"><br>
+  Password: <input type="password" name="password"><br>
+  <input type="submit" value="Submit">
+</form>
+      </div>
 		</a>
 	</div>
 </body>
