@@ -1,5 +1,6 @@
 body {
-	background-color: rgb(128,241,215);
+	background-image: url("../imgs/fade.jpg");
+  background-repeat: repeat-x;
   margin:0;
 }
 .media-body{
@@ -59,11 +60,11 @@ img {
 
 }
 .nav {
-  margin: 0;
+
 }
 .nav ul {
   list-style: none;
-  background-color: #444;
+  /*background-color: #444;*/
   text-align: center;
   padding: 0;
   margin: 0;
@@ -107,6 +108,16 @@ img {
     display: inline-block;
     margin-right: -4px;
   }
+
+
+.nav .icon{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  margin: 10px 20px;
+  font-family: cursive;
+  color:rgb(180,241,229);
+}
 .content{
   margin: 0 auto;
   width: 600px;
