@@ -1,0 +1,7 @@
+.main-part a div {
+	float:left;
+	width:35%;
+	height: 200px;
+	margin: 10px;
+	background-color: yellow;
+}
