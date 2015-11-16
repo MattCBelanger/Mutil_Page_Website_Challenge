@@ -39,10 +39,18 @@
 			<div class="box signin">
         <h2>Sign Up</h2>
           <pre>
-            <form action="demo_form.asp">      Username:         <input type="text" name="usrname"><br>
+            <form action="http://174.129.248.23/brainstation/files/submittingforms.php" method="GET">      User:             <input type="text" name="user"><br>
       New Password:     <input type="password" name="password"><br>
       Confirm Password: <input type="password" name="password"><br>
-              <input type="submit" value="Submit">
+      Bio:              <textarea name="bio"></textarea>
+      city:             <select name="city">
+        <option value="Toronto">Toronto</option>
+        <option value="Markham">Markham</option>
+        <option value="Richmond Hill">Richmond Hill</option>
+      </select>
+      Gender:           <input type="radio" name="gender" value="male" /><input type="radio" nmae="gender" value="female" />
+      Agree:            <input type="checkbox"/>
+              <button type="submit" value="Submit">Submit</button>
            </form>
           </pre>
       </div>
